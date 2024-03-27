@@ -1,0 +1,43 @@
+<%- include('./base/header.ejs') %>
+
+<div class="container">
+    <div class="alert bg-success mt-3">
+        <h4 class="text-center">Update Your Record</h4>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <form action="" method="POST">
+                <div class="field my-3">
+                    <label for="" class="form-label">movie name</label>
+                    <input type="text" class="form-control" name="name" placeholder="Enter movie name">
+                </div>
+
+                <div class="field my-3">
+                    <label for="" class="form-label">movie rating</label>
+                    <input type="text" class="form-control" name="city" placeholder="Enter movie rating">
+                </div>
+
+                <div class="field my-3">
+                    <label for="" class="form-label">movie release date</label>
+                    <input type="text" class="form-control" name="email" placeholder="Enter movie release date">
+                </div>
+
+                <div class="field my-3">
+                    <label for="" class="form-label">movie type</label>
+                    <input type="text" class="form-control" name="contact" placeholder="Enter movie type">
+                </div>
+
+                <input type="submit" value="search" class="btn btn-sussces w-100">
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+
+<%- include ('./base/footer.ejs') %>
